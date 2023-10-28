@@ -1,0 +1,31 @@
+{
+  "name": "API-Random-GIF",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --open=src/index.html",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radu3105/API-Random-GIF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radu3105/API-Random-GIF/issues"
+  },
+  "homepage": "https://github.com/Radu3105/API-Random-GIF#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
